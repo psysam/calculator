@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background-color: rgba(40, 97, 150, 0.491);
+  }
+  
+  button {
+    font-style:italic;
+    font-size: 120%;
+    width: 66px;
+    padding: 20px;
+    margin: 0px 3px;
+    border: none;
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(203, 201, 201, 0.5);
+    color: #fff;
+  }
+  .container{
+    background-color: rgb(14, 14, 14);
+    justify-content: center;
+    width: 400px;
+    height: 550px;
+    border-radius: 30px;
+  }
+
+  .row {
+    margin: 12px 0px;
+
+  }
+  
+  .row input {
+    font-style:italic;
+    font-size: 23px;
+    margin: 20px;
+    padding: 40px 40px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+  }
+  .equalbtn{
+    width: 145px;
+    font-size: 120%;
+    background-color: orange;
+  }
+  .operator{
+    color: green;
+  }
+
+
+  /*utilse CSS*/
+  .items-center{
+    text-align: center;
+  }
+
+  .mx-auto{
+    margin: auto;
+  }
+  .flex{
+    display: flex;
+    
+  }
+  .flex-col{
+    flex-direction: column;
+  }
+  .text{
+    display: flex;
+    left: 32%;
+    position: relative;
+  }
